@@ -1,0 +1,12 @@
+
+<!-- {{data|json}} -->
+
+
+<div class="card mt-4 mt-4 mr-3 a" style="width:30%" *ngFor="let data of data">
+    <img src="{{data.urlToImage}}" class="card-img-top"> 
+    <div class="card-body">
+      <h5 class="card-title">{{data.Title}}</h5>
+      <p class="card-text">{{data.description}}</p>
+      <a href="#" class="btn btn-primary" >Read</a>
+    </div>
+  </div>

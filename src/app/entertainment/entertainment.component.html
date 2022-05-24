@@ -1,0 +1,10 @@
+<p>entertainment works!</p>
+
+<div class="card mt-4 mt-4 mr-3 card1" style="width:25%" *ngFor="let data of data" style="color:blue">
+    <img src="{{data.urlToImage}}" class="card-img-top"> 
+    <div class="card-body">
+      <h5 class="card-title">{{data.Title}}</h5>
+      <p class="card-text">{{data.description}}</p>
+      <a href="#" class="btn btn-primary" >Read</a>
+    </div>
+  </div>
