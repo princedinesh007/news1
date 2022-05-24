@@ -12,10 +12,10 @@ data:any;
 
   ngOnInit(): void {
 
-    this.ser.general().subscribe((res:any)=>{
-      console.log(res);
-      this.data=res.articles;
-    })
+  this.ser.greeting().subscribe((res:any)=>{
+    this.data=res;
+    console.log(this.data)
+  })
   }
 
 }
